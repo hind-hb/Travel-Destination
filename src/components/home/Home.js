@@ -11,10 +11,12 @@ import data from '../../data/db.json';
 function Home(props) {
     return (
       <>
-      
-      <Header  pp="hind"/>
+      <nav>
+      <Header/>
+      <Navbar/>
+      </nav>
       <Tours   data={data}/>
-      <Footer h="aa"/>
+      <Footer />
       </>
    );
   }
