@@ -1,4 +1,5 @@
 import './Tours.css';
+import './tour/Tour';
 
 function Tours(props) {
     return (
